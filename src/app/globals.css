@@ -25,3 +25,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.column {
+  margin: 8px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+}
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #fff;
+}
+
+.dragging {
+  background-color: #f7f7f7;
+}
